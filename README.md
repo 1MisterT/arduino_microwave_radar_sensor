@@ -25,7 +25,7 @@ const char* mqttPassword = MQTT_PASSWORD;
 - maybe change the homeassistant state and discovery topics:
 ```c
 String discovery_topic = "homeassistant/binary_sensor/radar_" + String(unique_id) + "/config";
-String state_topic = "tom/sensor/radar/" + String(unique_id);
+String state_topic = "home/sensor/radar/" + String(unique_id);
 ```
 
 and finally upload the code :)
